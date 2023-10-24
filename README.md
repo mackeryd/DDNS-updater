@@ -1,0 +1,1 @@
+This script is set up as a cron job on my home server as a dynamic DNS work around. It compares a file containing my last known ip address to the ip address captured by the curl command, and if they are different it replaces the ip in the text file, updates my dns records at epik and sends me an email containing the new ipaddress.
